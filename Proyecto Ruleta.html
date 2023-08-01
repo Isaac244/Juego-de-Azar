@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ruleta de Juego Azar</title>
+    <!--ESTILOS DEL JUEGO-->
+    <link rel="stylesheet" type="text/css" href="Ruleta.css">
+</head>
+
+<body class="CUERPO">
+    <!--CUERPO DEL JUEGO-->
+    <div id="GAMES_FINAL" class="GAMES_FINAL">
+        <div id="Cian" class="Color Cian Left" data-color="Cian"></div>
+        <div id="Green" class="Color Green Right" data-color="Green"></div>
+        <div id="Oranje" class="Color Oranje Left" data-color="Oranje"></div>
+        <div id="Red" class="Color Red Right" data-color="Red"></div>
+        <!--PANTALLA BLANCA DEL JUEGO-->
+        <div id="overlight" class="overlight" >
+        <button id="BtnComenzar" class="BtnJuego" onclick="ComenzarJuego()">Comenzar</button>
+    </div>
+    </div>
+
+    <!--SCRIPT DEL SWEETALERT-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js">
+
+    </script>
+
+    <!--SCRIPT DEL JUEGO-->
+    <script src="Ruleta.js">
+
+    </script>    
+</body>
+</html>

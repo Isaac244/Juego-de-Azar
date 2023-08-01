@@ -1,0 +1,113 @@
+/*ESTILOS DEL JUEGO*/
+/*CUERPO DE LA PAGINA*/
+.CUERPO{
+    /* background: black; */
+    background-image: url(./Escenario/ESCENARIO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/*CUERPO DEL JUEGO*/
+.GAMES_FINAL{
+    width: 70vh;
+    height: 70vh;
+    border-radius: 50%;
+    max-width: 90vh;
+    max-height: 90vh;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px 15px gold;
+}
+
+/*COLORES DEL JUEGO*/
+.Color{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+.Cian{
+    background:darkcyan;
+}
+
+.Cian.light{
+    background: cyan;
+}
+
+.Green{
+    background: rgba(91, 133, 9, 0.404);
+}
+
+.Green.light{
+    background: yellowgreen;
+}
+
+.Oranje{
+    background: orangered;
+}
+
+.Oranje.light{
+    background: orange;
+}
+
+.Red{
+    background: red;
+}
+
+.Red.light{
+    background: rgb(231, 132, 132);
+}
+
+/*POCISION DEL JUEGO*/
+.Left{
+    float: left;
+}
+
+.Right{
+    float: left;
+}
+
+/*BOTON DEL JUEGO*/
+.BtnJuego{
+    width: 400px;
+    height: 100px;
+    background: navy;
+    color: fuchsia;
+    font-style: inherit;
+    font-size: 3.5rem;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 200px);
+    cursor:pointer
+}
+
+.BtnJuego:hover{
+    background:aqua
+}
+
+.BtnJuego:hover{
+    color:white
+}
+
+.hidden{
+    display: none;
+}
+
+*{
+    font-family: 'Arial';
+}
+
+/*BRILLANTES DEL JUEGO*/
+#GAMES_FINAL .overlight{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
